@@ -115,7 +115,7 @@ function Index() {
         <img src={civic.url} alt="Honda Civic prata após lavagem detalhada" className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-hero-overlay" />
         <div className="relative mx-auto w-full max-w-6xl px-5">
-          <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-background/50 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-primary">
+          <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-background/50 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-primary-bright">
             <Star className="h-3.5 w-3.5 fill-current" /> 4,8 no Google · São Roque
           </p>
           <h1 className="max-w-3xl text-4xl font-black leading-[1.05] sm:text-6xl md:text-7xl">
@@ -130,7 +130,7 @@ function Index() {
 
       <section id="servicos" className="mx-auto max-w-6xl px-5 py-24">
         <div className="reveal mb-12">
-          <p className="text-sm font-bold uppercase tracking-widest text-primary">Serviços</p>
+          <p className="text-sm font-bold uppercase tracking-widest text-primary-bright">Serviços</p>
           <h2 className="mt-2 text-3xl font-black sm:text-5xl">Cuidado completo, <span className="text-silver">do motor ao couro.</span></h2>
         </div>
         <div className="grid gap-5 md:grid-cols-2">
@@ -140,7 +140,7 @@ function Index() {
               <ul className="grid grid-cols-2 gap-3">
                 {g.items.map(([Icon, label]) => (
                   <li key={label} className="flex items-center gap-3 rounded-2xl bg-secondary p-3 text-sm font-medium">
-                    <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-primary/15 text-primary"><Icon className="h-4.5 w-4.5" /></span>
+                    <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-primary/15 text-primary-bright"><Icon className="h-4.5 w-4.5" /></span>
                     <span className="min-w-0">{label}</span>
                   </li>
                 ))}
@@ -158,7 +158,7 @@ function Index() {
               <article key={d.t} className="reveal overflow-hidden rounded-3xl border border-border bg-card">
                 <img src={d.img} alt={d.t} loading="lazy" className="aspect-[4/3] w-full object-cover" />
                 <div className="p-6">
-                  <d.icon className="mb-3 h-7 w-7 text-primary" />
+                  <d.icon className="mb-3 h-7 w-7 text-primary-bright" />
                   <h3 className="text-lg font-extrabold">{d.t}</h3>
                   <p className="mt-2 text-muted-foreground">{d.d}</p>
                 </div>
@@ -170,7 +170,7 @@ function Index() {
 
       <section id="galeria" className="py-24">
         <div className="reveal mx-auto mb-10 max-w-6xl px-5">
-          <p className="text-sm font-bold uppercase tracking-widest text-primary">Galeria</p>
+          <p className="text-sm font-bold uppercase tracking-widest text-primary-bright">Galeria</p>
           <h2 className="mt-2 text-3xl font-black sm:text-5xl">Cada detalhe <span className="text-silver">conta.</span></h2>
         </div>
         <div className="overflow-hidden">
@@ -209,7 +209,7 @@ function Index() {
           <div className="reveal">
             <h2 className="text-4xl font-black sm:text-5xl">Pronto para transformar <span className="text-silver">seu carro?</span></h2>
             <div className="mt-8"><CTA big>Chamar no WhatsApp (11) 97437-0653</CTA></div>
-            <p className="mt-8 flex gap-3 text-muted-foreground"><MapPin className="h-5 w-5 shrink-0 text-primary" />
+            <p className="mt-8 flex gap-3 text-muted-foreground"><MapPin className="h-5 w-5 shrink-0 text-primary-bright" />
               Av. Bandeirantes, 481 - Jardim Bandeirantes, São Roque - SP, 18134-220</p>
           </div>
           <div className="reveal rounded-3xl border border-border bg-card/90 p-6 backdrop-blur">
