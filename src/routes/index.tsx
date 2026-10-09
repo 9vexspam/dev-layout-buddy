@@ -140,7 +140,7 @@ function Index() {
               <ul className="grid grid-cols-2 gap-3">
                 {g.items.map(([Icon, label]) => (
                   <li key={label} className="flex items-center gap-3 rounded-2xl bg-secondary p-3 text-sm font-medium">
-                    <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-primary/25 text-primary-bright"><Icon className="h-4.5 w-4.5" strokeWidth={2.5} /></span>
+                    <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-primary/20 ring-1 ring-inset ring-primary/40 text-primary-bright"><Icon className="h-4.5 w-4.5" strokeWidth={2.75} /></span>
                     <span className="min-w-0">{label}</span>
                   </li>
                 ))}
@@ -220,7 +220,7 @@ function Index() {
                   <span className={h === "Fechado" ? "text-destructive font-semibold" : "font-semibold"}>{h}</span></li>
               ))}
             </ul>
-            <p className="mt-4 rounded-xl bg-secondary p-3 text-sm text-muted-foreground">Dia de Nossa Senhora Aparecida: o horário pode mudar.</p>
+            <p className="mt-4 rounded-xl bg-secondary p-3 text-sm text-foreground/85">Dia de Nossa Senhora Aparecida: o horário pode mudar.</p>
           </div>
         </div>
       </section>
