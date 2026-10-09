@@ -119,7 +119,7 @@ function Index() {
             <Star className="h-3.5 w-3.5 fill-current" /> 4,8 no Google · São Roque
           </p>
           <h1 className="max-w-3xl text-4xl font-black leading-[1.05] sm:text-6xl md:text-7xl">
-            Seu carro merece um brilho de <span className="text-silver">showroom.</span>
+            Seu carro merece um brilho de <span className="text-ember">showroom.</span>
           </h1>
           <p className="mt-5 max-w-xl text-lg text-muted-foreground">
             Lavagem detalhada, rápida e sem riscos. Agende pelo WhatsApp e retire seu carro impecável.
