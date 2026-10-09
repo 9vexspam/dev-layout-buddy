@@ -93,7 +93,7 @@ function Index() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <header className="fixed inset-x-0 top-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl">
+      <header className="fixed inset-x-0 top-0 z-50 border-b border-border bg-background/90 backdrop-blur-xl">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5">
           <a href="#inicio" className="font-display text-lg font-black tracking-tight">
             DA-<span className="text-primary">BANDEIRANTES</span>
@@ -140,7 +140,7 @@ function Index() {
               <ul className="grid grid-cols-2 gap-3">
                 {g.items.map(([Icon, label]) => (
                   <li key={label} className="flex items-center gap-3 rounded-2xl bg-secondary p-3 text-sm font-medium">
-                    <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-primary/20 text-primary-bright"><Icon className="h-4.5 w-4.5" strokeWidth={2.5} /></span>
+                    <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-primary/25 text-primary-bright"><Icon className="h-4.5 w-4.5" strokeWidth={2.5} /></span>
                     <span className="min-w-0">{label}</span>
                   </li>
                 ))}
