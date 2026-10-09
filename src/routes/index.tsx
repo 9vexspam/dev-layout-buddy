@@ -115,8 +115,8 @@ function Index() {
         <img src={civic.url} alt="Honda Civic prata após lavagem detalhada" className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-hero-overlay" />
         <div className="relative mx-auto w-full max-w-6xl px-5">
-          <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-background/50 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-primary-bright">
-            <Star className="h-3.5 w-3.5 fill-current" /> 4,8 no Google · São Roque
+          <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-background/70 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-foreground">
+            <Star className="h-3.5 w-3.5 fill-current text-primary-bright" /> 4,8 no Google · São Roque
           </p>
           <h1 className="max-w-3xl text-4xl font-black leading-[1.05] sm:text-6xl md:text-7xl">
             Seu carro merece um brilho de <span className="text-ember">showroom.</span>
@@ -140,7 +140,7 @@ function Index() {
               <ul className="grid grid-cols-2 gap-3">
                 {g.items.map(([Icon, label]) => (
                   <li key={label} className="flex items-center gap-3 rounded-2xl bg-secondary p-3 text-sm font-medium">
-                    <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-primary/15 text-primary-bright"><Icon className="h-4.5 w-4.5" /></span>
+                    <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-primary/20 text-primary-bright"><Icon className="h-4.5 w-4.5" strokeWidth={2.5} /></span>
                     <span className="min-w-0">{label}</span>
                   </li>
                 ))}
